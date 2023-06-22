@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>boot-jenkins-pipeline</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>demo</description>
+    <name>boot-jenkins-pipeline</name>
+    <description>boot-jenkins-pipeline</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -30,6 +30,7 @@
     </dependencies>
 
     <build>
+        <finalName>boot-jenkins-pipeline</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
